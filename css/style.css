@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+
+}
+
+header {
+
+    background: rgb(137,132,205);
+background: linear-gradient(90deg, rgba(137,132,205,1) 0%, rgba(9,62,121,1) 88%, rgba(0,212,255,1) 100%);
+
+}
+
+#fotoppal { 
+    
+    background-size: 180% auto;
+    background-repeat: no-repeat;
+    margin: 10px;
+    height: 200px;
+    width: 200px ;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 0, 0);
+   
+}
