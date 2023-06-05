@@ -302,4 +302,65 @@ nav ul li a.estoyAqui {
     margin: 3%;
  }
 
+ .tunombre label, .mail label {
+    font-weight: 600;
+ }
+
+
 /* Fin - Postula Procer */
+
+/* Quienes somos */
+
+
+.staff {
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgba(174, 174, 174, 0.9);
+    box-shadow: -10px 10px 10px rgb(0, 0, 0, .7);
+}
+
+.fotostaff img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 0, 0); 
+}
+
+.info h3 {
+    font-size: x-large;
+    font-style: italic;
+    border-bottom: 3px solid blue;
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+.info h4 {
+    font-style: oblique;
+    margin-bottom: 5px;
+}
+
+.info p {
+    color: black;
+    text-align: justify;
+    font-weight: 600;
+    
+}
+
+.staff:nth-child(even) {
+    flex-direction: row-reverse;
+
+}
+
+.derecha {
+    text-align: end;
+}
+
+
+/* Fin - Quienes somos */
