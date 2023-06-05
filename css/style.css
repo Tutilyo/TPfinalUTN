@@ -197,6 +197,7 @@ nav ul li a.estoyAqui {
     margin-bottom: 5px;
     color: green;
     font-size: larger;
+    text-align: center;
 }
 
 .debilidad {
@@ -221,6 +222,7 @@ nav ul li a.estoyAqui {
     margin-bottom: 5px;
     color: red;
     font-size: larger;
+    text-align: center;
 }
 
 
@@ -245,6 +247,7 @@ nav ul li a.estoyAqui {
     font-style: bold;
     color: blue;
     font-size: larger;
+    text-align: center;
 }
 
 
