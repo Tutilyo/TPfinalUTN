@@ -173,8 +173,8 @@ nav ul li a.estoyAqui {
     border: 2px solid black;
     margin: 20px;
     box-shadow: -6px 10px 10px rgb(0, 0, 0, .7);
-    height: 75%;
-    width: 75%;
+    width: 50%;
+    height: 50%;
 }
 
 .poder {
@@ -300,10 +300,27 @@ nav ul li a.estoyAqui {
 
 .formulario input {
     border-radius: 5px;
+    text-align: center;
+    height: 20px;
 }
  .botonito {
     margin: 3%;
  }
+
+ .botonito input {
+    background-color: #4CAF50;
+    color: white;
+    height: 35px;
+    width: 65px;
+    font-size: 16px;
+    border: none;
+    cursor: hand;
+ }
+
+ 
+.botonito input:hover {
+    background-color: #45a049;
+  }
 
  .tunombre label, .mail label {
     font-weight: 600;
