@@ -6,10 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Postula tu Prócer</title>
-    <!--normalize-->
-    <link rel="stylesheet" href="css/normalize.css">
     <!-- estilo personal -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <!-- fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,18 +19,18 @@
 
 
     <header>
-        <img class="fotoppal" src="imagenes/richardcomic.jpg" alt="el general Ricardo Anibal Fort">
+        <img class="fotoppal" src="../imagenes/richardcomic.jpg" alt="el general Ricardo Anibal Fort">
 
         <div>
             <h1>La web de los Próceres Argentinos</h1>
         </div>
 
-        <img class="fotoppal" src="imagenes/richardcomic.jpg" alt="el general Ricardo Anibal Fort">
+        <img class="fotoppal" src="../imagenes/richardcomic.jpg" alt="el general Ricardo Anibal Fort">
     </header>
 
     <nav>
         <ul>
-            <li><a href="index.html">Próceres</a></li>
+            <li><a href="../index.html">Próceres</a></li>
             <li><a class="estoyAqui" href="postulaProcer.html">Postula a tu prócer</a></li>
             <li><a href="quienesSomos.html">Quienes Somos</a></li>
         </ul>
@@ -54,17 +52,17 @@
 
             <div class="tunombre">
                 <label for="tunombre">Ingresa tu nombre</label>
-                <input type="text" name="tunombre" placeholder="Nombre del responsable" required>
+                <input type="text" id="nombreusuario" name="tunombre" placeholder="Nombre del responsable" required>
             </div>
 
 
             <div class="mail">
                 <label for="mail">E-Mail</label>
-                <input type="email" name="mail" placeholder="Ingresa tu e-mail" required>
+                <input type="email" id="correo" name="mail" placeholder="Ingresa tu e-mail" required>
             </div>
 
             <div class="botonito">
-            <input class="botonaso" type="submit" value=" Enviar ">
+            <input id="botonaso" type="submit" value=" Enviar ">
             </div>
 
         </form>
@@ -74,17 +72,17 @@
     <footer>
         <div class="centroRedes">
             <div>
-                <a href="https://www.twitch.tv" target="_blank"><img src="imagenes/iconos/twitch.svg"
+                <a href="https://www.twitch.tv" target="_blank"><img src="../imagenes/iconos/twitch.svg"
                         alt="icono Twitch"></a>
             </div>
 
             <div>
-                <a href="https://www.twitter.com" target="_blank"><img src="imagenes/iconos/twitter.svg"
+                <a href="https://www.twitter.com" target="_blank"><img src="../imagenes/iconos/twitter.svg"
                         alt="icono Twitter"></a>
             </div>
 
             <div>
-                <a href="https://www.whatsapp.com" target="_blank"><img src="imagenes/iconos/whatsapp.svg"
+                <a href="https://www.whatsapp.com" target="_blank"><img src="../imagenes/iconos/whatsapp.svg"
                         alt="icono Whatsapp"></a>
             </div>
         </div>
@@ -95,12 +93,14 @@
 
         <div>
             <div class="diseño">
-                <img src="imagenes/iconos/diseño.svg" alt="icono diseño">
+                <img src="../imagenes/iconos/diseño.svg" alt="icono diseño">
                 <p>Guido Gatica</p>
             </div>
         </div>
 
     </footer>
+
+    <script src="../script/main.js"></script>
 
 
 </body>
