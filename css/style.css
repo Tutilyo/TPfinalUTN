@@ -21,7 +21,7 @@ header {
 
 
 .fotoppal {
-    margin: 20px;
+    margin: 10px;
     height: 5%;
     width: 5%;
     border-radius: 50%;
@@ -148,25 +148,6 @@ footer {
 .perfil:hover {
     transform: scale(1.3);
     z-index: 10;
-}
-
-@media screen and (max-width: 600px) {
-    .main_index {
-        flex-direction: column;
-        align-items: center;
-        margin: 20px;
-        gap: 20px;
-        align-content: stretch;
-    }
-
-    .perfil {
-        width: 60%;
-    }
-
-    .leyendafooter {
-        display: none;
-    }
-
 }
 
 
@@ -405,3 +386,89 @@ footer {
 
 
 /* Fin - Quienes somos */
+
+/* Media Queries */
+
+
+@media screen and (max-width: 767px) {
+
+    header {
+        height: 10%;
+    }
+
+    header h1 {
+        font-size: 35px;
+    }
+
+    .fotoppal, .leyendafooter {
+        display: none;
+    }
+
+    nav ul {
+        grid-template-columns: 100%;
+    }
+
+
+    .main_index {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        gap: 20px;
+        align-content: stretch;
+    }
+
+    .perfil {
+        width: 70%;
+        height: auto;
+    }
+
+    .fotoPerfil {
+        height: 200px;
+        width: 100px;
+    }
+
+    .staff {
+        gap: 5px;
+    }
+
+    .staff:nth-child(even), .staff {
+        flex-direction: column;
+    
+    }
+
+    .info h3, h4, .derecha, .formulario h2 {
+        text-align: center;
+    }
+
+    .info h3 {
+        margin-top: 3px;
+    }
+
+    .info h4 {
+        margin-bottom: 15px;
+    }
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .fotoppal {
+        margin: 10px;
+        height: 15%;
+        width: 15%;
+    
+    }
+
+    .main_index {
+        flex-wrap: wrap;
+        align-content: stretch;
+    }
+
+    .perfil {
+        width: 45%;
+        margin: 10px;
+    }
+    
+
+}
+
