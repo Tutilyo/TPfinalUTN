@@ -70,7 +70,7 @@ nav ul li a {
     
 }
 
-nav ul li a:hover {
+nav ul li:hover {
     background-color: rgb(87, 158, 202);
 
 }
@@ -109,7 +109,7 @@ footer {
     padding: 5px;
 }
 
-nav ul li a.estoyAqui {
+.estoyAqui {
     background-color: rgb(87, 158, 202);
 
 }
@@ -125,6 +125,7 @@ nav ul li a.estoyAqui {
     align-content: stretch;
     margin: 2%;
 }
+
 
 
 .perfil {
@@ -148,6 +149,26 @@ nav ul li a.estoyAqui {
     transform: scale(1.3);
     z-index: 10;
 }
+
+@media screen and (max-width: 600px) {
+    .main_index {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        gap: 20px;
+        align-content: stretch;
+    }
+
+    .perfil {
+        width: 60%;
+    }
+
+    .leyendafooter {
+        display: none;
+    }
+
+}
+
 
 .main_index .perfil .info h1 {
     font-weight: 900;
