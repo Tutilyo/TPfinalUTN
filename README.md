@@ -64,18 +64,18 @@ Para pantallas pequeñas de hasta 767px:
 
 En el estilo compartido; la botonera pasa de estar en una fila y tres columnas, a estar en una columna y en tres filas.
 	
-	  En la seccion "proceres" la direccion de las cartas en el "main" cambia a columna por lo que ingresa una sola carta en todo el ancho. Las restantes se ubicaran abajo a continuacion.
+--En la seccion "proceres" la direccion de las cartas en el "main" cambia a columna por lo que ingresa una sola carta en todo el ancho. Las restantes se ubicaran abajo a continuacion.
 Desaparecen las fotos del HEADER y la leyenda del FOOTER.
 
-	  En la seccion "postula a tu procer" se agranda el ancho del formulario.
+--En la seccion "postula a tu procer" se agranda el ancho del formulario.
 
-	  En la seccion "quienes somos" cambia la orientacion del contenido de cada perfil. Ahora la foto se ubicara en la parte superior de la caja contenedora y junto con el nombre, quedaran centrados horizontalmente.
+--En la seccion "quienes somos" cambia la orientacion del contenido de cada perfil. Ahora la foto se ubicara en la parte superior de la caja contenedora y junto con el nombre, quedaran centrados horizontalmente.
 
 
 
 Para pantallas medianas de hasta 1024px (y moviles rotando pantalla):
 
-	Utilicé flex-wrap en la caja contenedora y un ancho de 45% para los hijos (las cartas de los personajes). De esta manera me aseguré que entren dos cartas en cada fila y quede un pequeño espacio (el 10% restante) para posibles margenes o gap.
+Utilicé flex-wrap en la caja contenedora y un ancho de 45% para los hijos (las cartas de los personajes). De esta manera me aseguré que entren dos cartas en cada fila y quede un pequeño espacio (el 10% restante) para posibles margenes o gap.
   
  
   
